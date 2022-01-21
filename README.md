@@ -17,11 +17,11 @@ Detect and log when your local IP has changed and restart your web server or sen
 It's up to you what you want to do with it, How it works right now serves my needs fine though.<br>
 
 ## How? ##
-Python will use request to requests.get('https://myip.wtf/json')<br>
+Python will use request to `requests.get('https://myip.wtf/json')`<br>
 Then python json to pass that data<br>
 Then we use sqlite3 to make a new database file if we don't have one (a db file will be automatically made if one is not found aswell)<br>
-we also need to grab oue local ip so that is done with socket in the getLocalIP() function<br>
-On first run main() function will run, setup a new scheduler, set the schedule time to 60 mins<br>
+we also need to grab oue local ip so that is done with socket in the `getLocalIP()` function<br>
+On first run `main()` function will run, setup a new scheduler, set the schedule time to 60 mins<br>
 Then drop into a while loop<br>
 The loop will check if the schedule is ready to be ran, if not it will wait 1 second and check again.<br>
 The console will output a little . heartbeat to let you know the script is still running.<br>
