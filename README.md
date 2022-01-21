@@ -14,6 +14,7 @@ Tracking how often your ISP changes your IP can be useful information for the se
 You could also use this script as a jumping off point eg.<br>
 Detect and log when your public IP has changed then update a DNS record or domain name.<br>
 Detect and log when your local IP has changed and restart your web server or send you a message saying something has restarted.<br>
+Detect and log changes to the VPN you are connected to.<br>
 It's up to you what you want to do with it, How it works right now serves my needs fine though.<br>
 
 ## How? ##
