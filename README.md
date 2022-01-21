@@ -58,4 +58,8 @@ The script and db files are independent of the php file and web server.<br>
 I AM NOT RESPONSIBLE FOR YOUR CRAPPY SETUPS!<br>
 DO NOT put that web page on the open internet, it's intended for local networks or vpns only.<br>
 Or allow another computer other then localhost to be allow to touch that py script.<br>
-If you pwn yourself by uploading all your data to the open internet, that's on you buddy.
+If you pwn yourself by uploading all your data to the open internet, that's on you buddy.<br?
+
+## Extra ##
+I am logging the tor exit node info that myip.wtf spits out however the php page does not render that info.<br>
+It is simple enough to edit the php to add it however that info was not relevant for my setup so it was always false for me.<br>
